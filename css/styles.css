@@ -1,0 +1,427 @@
+@font-face{
+    font-family: "Blanch-caps";
+    src: url("assets/fonts/blanch/BLANCH_CAPS.ttf")
+}
+body{
+    background-image: url("assets/textures/fabric_plaid.png");
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.righta{
+    width: 45px;
+    height: 50px;
+    position: relative;
+    left:894px;
+    top:20vh;
+}
+
+.lefta{
+    width: 45px;
+    height: 50px;
+    position: relative;
+    top:20vh;
+    right:12px;
+}
+
+.runner{
+    width: 90vw;
+    height: 35vh;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0, auto;
+    border: 5px white;
+}
+
+.core{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 120px;
+    position: relative;
+    top:10vh;
+}
+
+.picture{
+    width: 21%;
+    height: 15vh;
+    margin: 1% 0;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px, black;
+}
+
+.dem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none; 
+    color: darkgrey;
+    font-family: BLANCH_CAPS;
+    src: url(assets/fonts/blanch/BLANCH_CAPS.ttf);
+    position: relative;
+    top:5px;
+    font-size: 9pt;
+}
+
+.reg{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 10pt;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+.top{
+    width: 100vw;
+    height:300px;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    position: relative;
+    top:80px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.above{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:40%;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: row;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+.bigpicsd{
+    width:500px;
+    height:320px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: static;
+    bottom:80px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 50% 10%;
+    margin-top:35px;
+    margin-bottom: 20px;
+}
+
+.feat{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: 90px;
+}
+
+.coresd{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    left:30px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    bottom:320px;
+}
+
+.button{
+    background-image: url("assets/textures/az_subtle.png");
+    background-color: gainsboro;
+    height: 30px;
+    width: 200px;
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+    padding-top: 3px;
+    position: relative;
+    bottom: 470px;
+    left:40vw;
+}
+
+.button: hover{
+    background-color: #333;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bar{
+    width:100vw;
+    height: 50px;
+    background-image: url("https://www.tesrol.com.au/wp-content/uploads/2016/05/Dark-Grey.jpg");
+    margin: 0 auto;
+    display: flex;
+	align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 235px;
+}
+
+#start{
+    font-size: 14pt;
+    color:white;
+    font-family: sans-serif;
+}
+
+#time{
+    font-size: 8pt;
+    color:white;
+    top: 200px;
+}
+
+.texture{
+    width: 100vw;
+    height:250px;
+    background-color: grey;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top:70px;
+    
+}
+
+.lowerpic{
+    width:40px;
+    height:30px;
+    position: absolute;
+}
+
+.pi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.view{
+    width: 160px;
+    
+    margin-top: 50px;
+    position: relative;
+    float: right;
+    bottom: 440px;
+}
+
+.big{
+    color:#333;
+    font-family:sans-serif;
+    font-size: 14pt;
+    position: relative;
+    bottom: 160px;
+    left:50px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.copy{
+    color:white;
+    font-size: 11pt;
+    position: relative;
+    width: 280px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vcd{
+    position:relative;
+    bottom: 280px;
+    left: 40vw;
+}
+
+.white{
+    color:white;
+    font-size: 11pt;
+    position: relative;
+    left: 50px;
+    bottom: 160px;
+}
+
+.read{
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.fl{
+    color: gainsboro;
+    width: 240px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    bottom: 270px;
+    left: 150px;
+    font-size: 11pt;
+    font-family: sans-serif;
+}
+
+.search{
+    color:grey;
+    background-color: white;
+    font-family: sans-serif;
+    height: 20px;
+    width: 300px;
+    position: relative;
+    bottom:140px;
+    left: 50px;
+}
+
+.logo{
+    height: 50px;
+    position: relative;
+    left: 50px;
+    bottom: 120px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+    margin-top: 25px;
+    text-align: right;
+    width: 280px;
+    height: 200px;
+    position: relative;
+    left: 38px;
+
+}
+
+.across{
+    display: flex;
+    margin-left: 45px;
+    height:500px;
+    position: relative;
+    top:20px;
+    
+}
+
+#ico{
+    position: relative;
+    top: 100px;
+
+}
+
+.name{
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:300px;
+    height: 65px;    
+    position: relative;
+    right: 10px;
+
+}
+
+
+.itme{
+    width: 70px;
+    height: 90px;
+    overflow: hidden;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    bottom: 35px;
+
+}
+
+.info{
+    width: 230px;
+    height: 320px;
+    text-align: left;
+    position: relative;
+    left:610px;
+    bottom: 350px;
+}
+
+.leftr{
+    position: relative;
+    left:3vw;
+    top:25vh;
+    width: 45px;
+    height: 50px;
+}
+
+.rightr{
+    position: relative;
+    left:43.7vw;
+    top:25vh;
+    width: 45px;
+    height: 50px;
+}
+
+#picl{
+    width:150px;
+    height:85px;
+    overflow: hidden;
+    object-fit: none;
+    object-position: 50% 20%;
+    position: relative;
+    left: 45px;
+    bottom:67vh;
+}
+
+#picm{
+    width:150px;
+    height:85px;
+    overflow: hidden;
+    object-fit: none;
+    object-position: 47% 83%;
+    position: relative;
+    left:65px;
+    bottom: 67vh;
+}
+
+#picr{
+    width:150px;
+    height:85px;
+    overflow: hidden;
+    object-fit: none;
+    object-position: 25% 53%;
+    position: relative;
+    bottom: 67vh;
+    left:85px;
+}
+
+.carousel{
+    margin-top: 10px;
+    position: relative;
+    top: 620px;
+    right:45px;
+    width:500px;
+}
